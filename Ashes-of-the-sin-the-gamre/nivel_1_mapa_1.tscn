@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://opvajd4j6nn3"]
+
+[ext_resource type="PackedScene" path="res://niveles/nivel_1/mapa_1.tscn" id="1_clnjr"]
+[ext_resource type="PackedScene" uid="uid://bflqgf2cx8fn0" path="res://archer.tscn" id="2_pso8p"]
+[ext_resource type="PackedScene" uid="uid://bwbjoxv6blgmf" path="res://burning skull.tscn" id="3_pso8p"]
+
+[node name="Nivel1Mapa1" unique_id=1313059295 instance=ExtResource("1_clnjr")]
+
+[node name="Cascadas" parent="." index="2"]
+tile_map_data = PackedByteArray()
+
+[node name="Peligros" parent="." index="5"]
+tile_map_data = PackedByteArray()
+
+[node name="ParedesFalsas" parent="." index="10"]
+tile_map_data = PackedByteArray()
+
+[node name="Area2D" parent="." index="13" unique_id=2045629596 instance=ExtResource("2_pso8p")]
+position = Vector2(125, -46)
+
+[node name="Area2D2" parent="." index="14" unique_id=426149085 instance=ExtResource("3_pso8p")]
+position = Vector2(544, 228)
