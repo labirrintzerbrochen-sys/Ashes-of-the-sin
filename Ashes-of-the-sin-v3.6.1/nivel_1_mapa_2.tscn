@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dej3txtt8c7k8"]
+
+[ext_resource type="PackedScene" path="res://niveles/nivel_1/mapa_2.tscn" id="1_rti05"]
+
+[node name="Nivel1Mapa2" unique_id=2032623767 instance=ExtResource("1_rti05")]
+
+[node name="Cascadas" parent="." index="2"]
+tile_map_data = PackedByteArray()
+
+[node name="Peligros" parent="." index="5"]
+tile_map_data = PackedByteArray()
